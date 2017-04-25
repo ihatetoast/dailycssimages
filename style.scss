@@ -1,0 +1,63 @@
+@import 'palette.scss';
+
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Bitter', serif;*/
+html{
+	font-family: 'Raleway', sans-serif;
+	a {
+		text-decoration: none;
+		color: $dkgrey;
+	}
+	a:hover {
+		font-weight: bold;
+		text-shadow: 2px 1px 2px $ltgrey;
+	}
+}
+body{
+	margin: 0;
+}
+header{
+	background: $dkgrey;
+	padding: 2em;
+	text-align: center;
+	h1{
+		color: $orange;
+		font-family: 'Bitter', serif;
+		font-size: 3em;
+		margin: 0;
+	}
+}
+code{
+	background-color: white;
+	color: $grey;
+}
+.container{
+	background: $ltgrey;
+	display: flex;
+	flex-direction: column;
+	padding: 0.5em 2em;
+}
+
+.indexList {
+	margin-top: 1em;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.description{
+	width: 20%;
+	padding-right: 0.5em;
+}
+.title {
+	font-family: 'Bitter', serif;
+}
+
+.embedded {
+	flex-grow: 3;
+}
+.date {
+	color: $dkgrey;
+	display: flex;
+	font-weight: bold;
+	justify-content: flex-end;
+}
