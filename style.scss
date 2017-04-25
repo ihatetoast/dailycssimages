@@ -6,11 +6,10 @@ html{
 	font-family: 'Raleway', sans-serif;
 	a {
 		text-decoration: none;
-		color: $dkgrey;
+		color: $grey;
 	}
 	a:hover {
-		font-weight: bold;
-		text-shadow: 2px 1px 2px $ltgrey;
+		font-weight: bolder;
 	}
 }
 body{
@@ -18,13 +17,34 @@ body{
 }
 header{
 	background: $dkgrey;
-	padding: 2em;
+	padding: 2em 2em 0.5em 2em;;
 	text-align: center;
 	h1{
 		color: $orange;
 		font-family: 'Bitter', serif;
 		font-size: 3em;
 		margin: 0;
+	}
+}
+.link-items {
+	display: flex;
+	justify-content: flex-end;
+	ul{
+		list-style: none;
+		margin: 0;
+	}
+	a {
+		color: $ltgrey;
+		font-size: 1.25em;
+		text-decoration: none;
+	}
+	a:hover {
+		font-weight: 600;
+		text-shadow: 2px 1px 1px #000;
+	}
+	li{
+		display: inline;
+		margin-left: 1.5em;
 	}
 }
 code{
